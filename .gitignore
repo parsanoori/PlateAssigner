@@ -28,3 +28,6 @@ hs_err_pid*
 .idea/
 out/
 
+#ignoring .DS_Store
+
+.DS_Store
