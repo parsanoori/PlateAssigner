@@ -25,6 +25,6 @@
 hs_err_pid*
 
 #ommit .idea and out
-.idea
-out
+.idea/
+out/
 
