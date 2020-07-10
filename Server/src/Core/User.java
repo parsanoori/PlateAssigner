@@ -50,6 +50,7 @@ public class User {
 
     @Override
     public String toString() {
-        return "Name: " + name + ", Lastname: " + lastName + ", Id: " + id;
+        return "Name: " + name + ", Lastname: " + lastName + ", Id: " + id
+                + (UsersController.onlineUsers.contains(this) ? " isOnline" : " isOffline");
     }
 }
